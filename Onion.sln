@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion", "Onion\Onion.csproj", "{17D31CEE-ED08-45FE-BC10-C5F7C4BD92B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9BFF4556-75AE-451D-99DC-CE329DC468D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain.Core", "Onion.Domain.Core\Onion.Domain.Core.csproj", "{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain.Interfaces", "Onion.Domain.Interfaces\Onion.Domain.Interfaces.csproj", "{DE48BB41-309B-4911-A585-27F9BDD6C99A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{70A845CB-9DC3-474C-9871-BB4B482D4058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Services.Interfaces", "Onion.Services.Interfaces\Onion.Services.Interfaces.csproj", "{8CB542C9-77E8-4929-AD06-2460E4B0EDFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrustructure", "Infrustructure", "{3DCED561-6AC2-409A-9523-850831EDD219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrustructure.Data", "Onion.Infrustructure.Data\Onion.Infrustructure.Data.csproj", "{B3C24F48-F188-4CFE-BB19-26FE12B713F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrustructure.Business", "Onion.Infrustructure.Business\Onion.Infrustructure.Business.csproj", "{CD8D0E96-6778-437E-A89C-1BC64FF2874F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D31CEE-ED08-45FE-BC10-C5F7C4BD92B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D31CEE-ED08-45FE-BC10-C5F7C4BD92B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D31CEE-ED08-45FE-BC10-C5F7C4BD92B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D31CEE-ED08-45FE-BC10-C5F7C4BD92B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE48BB41-309B-4911-A585-27F9BDD6C99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE48BB41-309B-4911-A585-27F9BDD6C99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE48BB41-309B-4911-A585-27F9BDD6C99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE48BB41-309B-4911-A585-27F9BDD6C99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB542C9-77E8-4929-AD06-2460E4B0EDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB542C9-77E8-4929-AD06-2460E4B0EDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB542C9-77E8-4929-AD06-2460E4B0EDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB542C9-77E8-4929-AD06-2460E4B0EDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C24F48-F188-4CFE-BB19-26FE12B713F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C24F48-F188-4CFE-BB19-26FE12B713F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C24F48-F188-4CFE-BB19-26FE12B713F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C24F48-F188-4CFE-BB19-26FE12B713F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8D0E96-6778-437E-A89C-1BC64FF2874F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8D0E96-6778-437E-A89C-1BC64FF2874F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8D0E96-6778-437E-A89C-1BC64FF2874F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8D0E96-6778-437E-A89C-1BC64FF2874F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{949CEEAF-9A6D-44B2-9AC3-693EE2D4BB9C} = {9BFF4556-75AE-451D-99DC-CE329DC468D6}
+		{DE48BB41-309B-4911-A585-27F9BDD6C99A} = {9BFF4556-75AE-451D-99DC-CE329DC468D6}
+		{8CB542C9-77E8-4929-AD06-2460E4B0EDFF} = {70A845CB-9DC3-474C-9871-BB4B482D4058}
+		{B3C24F48-F188-4CFE-BB19-26FE12B713F7} = {3DCED561-6AC2-409A-9523-850831EDD219}
+		{CD8D0E96-6778-437E-A89C-1BC64FF2874F} = {3DCED561-6AC2-409A-9523-850831EDD219}
+	EndGlobalSection
+EndGlobal
